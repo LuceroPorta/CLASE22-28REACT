@@ -5,6 +5,8 @@ import Nav from './componentes/nav';
 import Footer from './componentes/footer';
 import Homepage from './pages/Homepage';
 import Ejemplo01 from './pages/Ejemplo01';
+import Ejemplo02 from './pages/Ejemplo02';
+
 
 function App() {
   return (
@@ -14,7 +16,8 @@ function App() {
      <Nav/>
      <Routes>
       <Route path='/' element={<Homepage/>}/>
-      <Route path='/' element={<Ejemplo01/>} />
+      <Route path='/Ejemplo01'element ={<Ejemplo01/>} />
+      <Route path='/Ejemplo02'element ={<Ejemplo02/>} />
       
      </Routes>
      </BrowserRouter>
