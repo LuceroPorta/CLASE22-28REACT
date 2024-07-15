@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nombre": "juan",
+        "apellido": "gomez",
+        "edad": "24"
+    },
+    {
+        "id": 2,
+        "nombre": "Lucero",
+        "apellido": "Porta",
+        "edad": "23"
+    },
+    {
+        "id": 3,
+        "nombre": "Leonel",
+        "apellido": "Perez",
+        "edad": "32"
+    },
+    {
+        "id": 4,
+        "nombre": "Daniela",
+        "apellido": "Benitez",
+        "edad": "27"
+    },
+    {
+        "id": 5,
+        "nombre": "Thomas",
+        "apellido": "Macri",
+        "edad": "35"
+    }
+]

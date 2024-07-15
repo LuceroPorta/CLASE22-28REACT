@@ -2,7 +2,7 @@ import { EjemploEstado } from "../componentes/Estado";
 const Ejemplo02 = (props) =>{
     return( 
     <>
-        <p>hola soy la pag ejemplo 2</p>
+        <h2>Ejemplos de estado</h2>
         <EjemploEstado />
     </>)
 }

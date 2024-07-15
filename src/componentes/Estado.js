@@ -2,6 +2,8 @@ import { useState } from "react";
 import "../styles/estado.css"
 function EjemploEstado (props) {
     const [counter, setCounter] = useState(0);
+
+    console.log(counter)
     return (
         <div className="contenedor">
             <div className="counter">
@@ -10,8 +12,8 @@ function EjemploEstado (props) {
             </div>
 
             <div className="botones">
-                <button className="success">+</button>
-                <button className="error">-</button>
+                <button className="success"  onClick={()=> setCounter(counter+1)}>+</button>
+                <button className="error" onClick={()=> setCounter(counter-1)}>-</button>
 
             </div>
 
